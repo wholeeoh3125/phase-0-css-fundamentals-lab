@@ -1,5 +1,47 @@
+header{
+  text-align: center;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+nav a {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: orange;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+#featured-property figure {
+  text-align: center;
+}
+
+#featured-property p {
+  text-align: center;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between; 
+}
+
+#details div {
+  flex: 1; 
+  padding: 10px;
+}
+
+#details div {
+  background-color: orange; 
+  text-align: center; 
+  width: 25%; 
+}
+
